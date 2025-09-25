@@ -1,0 +1,38 @@
+#hostname-overlay {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 6px 12px;
+  font-family: sans-serif;
+  font-size: 16px;
+  border-radius: 4px;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.top-left {
+  top: 10px;
+  left: 10px;
+}
+.top-middle {
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.top-right {
+  top: 10px;
+  right: 10px;
+}
+.bottom-left {
+  bottom: 10px;
+  left: 10px;
+}
+.bottom-middle {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bottom-right {
+  bottom: 10px;
+  right: 10px;
+}

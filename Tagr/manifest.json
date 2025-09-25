@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Tagr",
+  "version": "1.2",
+  "description": "Displays a custom name overlay on any URL.",
+  "permissions": ["storage", "tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Tagr Config"
+  },
+
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}

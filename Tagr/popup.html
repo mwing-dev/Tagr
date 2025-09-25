@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 10px;
+      min-width: 250px;
+    }
+    input, select {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    button {
+      width: 100%;
+      padding: 6px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h4>Kiosk Setup</h4>
+  <input type="text" id="kioskName" placeholder="Kiosk name (e.g. KIOSK-01)">
+  <input type="text" id="targetUrl" placeholder="Target URL (e.g. https://meet.jit.si/Room)">
+  
+  <select id="position">
+    <option value="top-left">Top Left</option>
+    <option value="top-middle">Top Middle</option>
+    <option value="top-right">Top Right</option>
+    <option value="bottom-left">Bottom Left</option>
+    <option value="bottom-middle">Bottom Middle</option>
+    <option value="bottom-right">Bottom Right</option>
+  </select>
+  
+  <button id="saveBtn">Save & Open</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
