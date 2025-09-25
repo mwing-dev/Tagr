@@ -27,7 +27,7 @@ To install manually from source:
 1. Click on the Tagr icon in your Chrome toolbar
 2. Enter the hostname you want displayed
 3. Choose the overlay position (top-left, top-right, etc.)
-4. Save your settings — the overlay will appear on every webpage
+4. Save your settings — the overlay will appear on the specified URL
 
 ## Permissions
 
